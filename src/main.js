@@ -8,13 +8,13 @@ class MainScene extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image('bg', '/assets/pre.png');
-        this.load.spritesheet('player', '/assets/Swordsman_lvl3_Walk_without_shadow.png', { frameWidth: 64, frameHeight: 64 });
-        this.load.image('cv-icon', '/assets/1 Icons/Icons_29.png');
-        this.load.image('projects-icon', '/assets/1 Icons/Icons_34.png');
-        this.load.image('mail-icon', '/assets/1 Icons/Icons_28.png');
-        this.load.spritesheet('cat', '/assets/3 Cat/Walk.png', { frameWidth: 47, frameHeight: 46 });
-        this.load.spritesheet('cat-idle-sheet', '/assets/3 Cat/Idle.png', { frameWidth: 47, frameHeight: 46 });
+        this.load.image('bg', 'assets/pre.png');
+        this.load.spritesheet('player', 'assets/Swordsman_lvl3_Walk_without_shadow.png', { frameWidth: 64, frameHeight: 64 });
+        this.load.image('cv-icon', 'assets/1 Icons/Icons_29.png');
+        this.load.image('projects-icon', 'assets/1 Icons/Icons_34.png');
+        this.load.image('mail-icon', 'assets/1 Icons/Icons_28.png');
+        this.load.spritesheet('cat', 'assets/3 Cat/Walk.png', { frameWidth: 47, frameHeight: 46 });
+        this.load.spritesheet('cat-idle-sheet', 'assets/3 Cat/Idle.png', { frameWidth: 47, frameHeight: 46 });
     }
 
     create() {
